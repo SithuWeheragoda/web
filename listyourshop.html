@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List your Shop</title>
+  </head>
+  <body>
+    <h1>リサイクルショップ</h1>
+    <nav>
+      <a href="index.html"><img class="icon_img" src="img/home.png" /> Home</a>
+      <a class="allshopa" href="allshops.html"
+        ><img class="icon_img" src="img/store.png" /> All Shops</a
+      >
+      <a href="category.html"
+        ><img class="icon_img" src="img/category.png" /> Category</a
+      >
+      <a href="#"
+        ><img class="icon_img" src="img/contact-mail.png" /> List your Shop</a
+      >
+      <div class="animation start-home"></div>
+    </nav>
+    <!-- Nav end -->
+
+    <div class="con ic2">
+      <svg height="80" width="300">
+        <g fill="none" stroke="black" stroke-width="4">
+          <path stroke-dasharray="40,15,4,15,5,10" d="M5 20 l215 0" />
+        </g>
+      </svg>
+      <div class="row">
+        <h3 class="h3lyh">Share Your Shop with Us</h3>
+      </div>
+      <div class="row">
+        <h4 class="h4lyh">We will contact you after below form submtion</h4>
+        <svg height="80" width="300">
+          <g fill="none">
+            <path stroke="Red" d="M5 20 l215 0" />
+          </g>
+        </svg>
+      </div>
+      <!-- Form Start -->
+      <div class="form_contain">
+        <div class="form">
+          <div class="input-contain ic1">
+            <label for="personname">Contact Person Name</label>
+            <input
+              id="firstname"
+              class="input"
+              type="text"
+              placeholder="First name"
+            />
+            <div class="cut"></div>
+          </div>
+          <div class="input-contain ic1">
+            <label for="shopname">Shop Name</label>
+            <input
+              id="firstname"
+              class="input"
+              type="text"
+              placeholder="Shop Name"
+            />
+            <div class="cut"></div>
+          </div>
+          <div class="input-contain ic1">
+            <label for="email">e-Mail</label>
+            <input
+              id="firstname"
+              class="input"
+              type="email"
+              placeholder="e-Mail"
+            />
+            <div class="cut"></div>
+          </div>
+          <div class="input-contain ic1 ic2">
+            <label for="Your Message">Your Message</label>
+            <textarea
+              class="textarea"
+              name="message"
+              placeholder="type your message here...."
+            ></textarea>
+          </div>
+          <button type="text" class="submit">Submit</button>
+        </div>
+      </div>
+      <!-- Form end -->
+    </div>
+    <div class="footer">
+      <p>Designed by <i>Sithara</i></p>
+    </div>
+  </body>
+</html>
